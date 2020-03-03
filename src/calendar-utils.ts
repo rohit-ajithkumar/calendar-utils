@@ -47,6 +47,14 @@ export interface CalendarEvent<MetaType = any> {
   start: Date;
   end?: Date;
   title: string;
+  unitName?: string;
+  unitCode?: string;
+  classType?: string;
+  building?: string;
+  room?: string;
+  tooltip?: string;
+  locationCode?: string;
+  location?: any;
   color?: EventColor;
   actions?: EventAction[];
   allDay?: boolean;
